@@ -1,0 +1,108 @@
+.home {
+  background-image: url("../public/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: initial;
+}
+
+.homeh1 {
+  color: blue;
+  font-style: italic;
+  font-size: 40px;
+  /* margin-top: 15%;
+  margin-left: 17%; */
+  opacity: 0.55;
+}
+.nav-item {
+  font-style: oblique;
+  font-size: 20px;
+}
+.navbar-brand {
+  font-style: oblique;
+  font-size: 20px;
+}
+
+/*  */
+
+/*signin start*/
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-signin {
+  background-image: url("../public/bg.webp");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh !important;
+  background-position: initial;
+  padding-top: 50px !important;
+}
+
+/* Add styles to the form container */
+.signin1 {
+  /* margin-top: 50px; */
+  max-width: 370px;
+  padding: 16px;
+  background-color: whitesmoke;
+}
+
+/* Full-width input fields */
+.signin1 input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.signin1 input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.signin1 .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signin1 .btn:hover {
+  opacity: 1;
+}
+.signin1 #signup {
+  text-decoration: none;
+}
+.signin1 #signin {
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.signin1 h3 {
+  color: blue;
+  font-style: italic;
+  font-size: 30px;
+  opacity: 0.55;
+}
+
+/*signin end*/
+/*  */
+.contacth3 {
+  font-size: 30px;
+  font-style: oblique;
+  /* color: whitesmoke; */
+}
+
+/*  */
